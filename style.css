@@ -338,3 +338,43 @@ svg.lucide {
     transform: scale(1.05);
     opacity: 0.9;
 }
+
+
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero, 
+.projects-section, 
+.tech-section, 
+.contact-section {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.hero { 
+    animation-delay: 0.1s; 
+}
+
+.projects-section { 
+    animation-delay: 0.3s; 
+    opacity: 0;
+}
+
+.tech-section { 
+    animation-delay: 0.5s; 
+    opacity: 0; 
+}
+
+.contact-section { 
+    animation-delay: 0.7s; 
+    opacity: 0; 
+}
