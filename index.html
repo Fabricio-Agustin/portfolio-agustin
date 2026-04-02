@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agustin | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+<!-- Navbar Minimalista -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">Agustin Gibaut</div>
+        <div class="nav-right">
+            <!-- WhatsApp -->
+            <a href="https://wa.me/tu-numero" target="_blank" aria-label="WhatsApp">
+                <i data-lucide="phone-call"></i>
+            </a>
+            <!-- Email -->
+            <a href="mailto:tu-email@gmail.com" aria-label="Email">
+                <i data-lucide="at-sign"></i>
+            </a>
+            <!-- Tema (Sol/Luna) -->
+            <button id="theme-toggle" class="icon-btn" aria-label="Cambiar tema">
+                <i data-lucide="sun"></i>
+            </button>
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <main class="content-wrapper">
+        <section class="hero">
+            <p class="description">
+                Soy Agustin, desarrollador de software de Cordoba, Argentina.
+                Me apasiona el desarrollo de software, y colaborar con proyectos de código abierto.
+            </p>
+        </section>
+    </main>
+
+<section class="projects-section">
+    <div class="projects-header">
+        <h2 class="section-title">Projects</h2>
+        <a href="https://github.com/Fabricio-Agustin" target="_blank" class="more-link">
+            More <i data-lucide="move-right"></i>
+        </a>
+    </div>
+
+    <div class="projects-grid">
+        <a href="https://github.com/Fabricio-Agustin/zenith-cli" target="_blank" class="repo-card">
+            <div class="repo-top">
+                <div class="repo-title-wrapper">
+                    <div class="repo-icon-bg">
+                        <i data-lucide="terminal" style="width:16px;height:16px;color:#666;"></i>
+                    </div>
+                    <h3 class="repo-name">
+                         OPTIMIZADOR PARA PC 
+                        <i data-lucide="arrow-up-right" style="width:14px;height:14px;color:#444;"></i>
+                    </h3>
+                </div>
+                <i data-lucide="github" style="width:18px;height:18px;color:#444;"></i>
+            </div>
+            <p class="repo-description">
+                Herramienta CLI para optimizar el rendimiento de PC. Limpieza, monitoreo y ajustes automáticos.
+            </p>
+            <div class="repo-tags">
+                <span class="tag">
+                    <span style="width:8px;height:8px;border-radius:50%;background:#dffc78;"></span>
+                    Batchfile
+                </span>
+            </div>
+        </a>
+
+        <a href="#" target="_blank" class="repo-card">
+            <div class="repo-top">
+                <div class="repo-title-wrapper">
+                    <div class="repo-icon-bg">
+                        <i data-lucide="shield-check" style="width:16px;height:16px;color:#666;"></i>
+                    </div>
+                    <h3 class="repo-name">
+                        SuperHeroe-Team
+                        <i data-lucide="arrow-up-right" style="width:14px;height:14px;color:#444;"></i>
+                    </h3>
+                </div>
+                <i data-lucide="github" style="width:18px;height:18px;color:#444;"></i>
+            </div>
+            <p class="repo-description">
+                Arma tu etuipo de superhéroes con sus habilidades y estadísticas. ¡Crea el equipo definitivo!
+            </p>
+            <div class="repo-tags">
+                <span class="tag">
+                    <span style="width:8px;height:8px;border-radius:50%;background:#f1e05a;"></span>
+                    JavaScript
+                </span>
+            </div>
+        </a>
+</section>
+<section class="tech-section content-wrapper">
+    <div class="projects-header">
+        <h2 class="section-title"> Stack</h2>
+    </div>
+
+    <div class="tech-grid">
+        <div class="tech-item"><span class="tech-name">HTML / CSS</span></div>
+        <div class="tech-item"><span class="tech-name">JavaScript</span></div>
+        <div class="tech-item"><span class="tech-name">TypeScript</span></div>
+        <div class="tech-item"><span class="tech-name">Angular</span></div>
+    </div>
+
+    <div class="tech-grid">
+        <div class="tech-item"><span class="tech-name">Python</span></div>
+        <div class="tech-item"><span class="tech-name">Node.js</span></div>
+        <div class="tech-item"><span class="tech-name">Django</span></div>
+        <div class="tech-item"><span class="tech-name">FastAPI</span></div>
+    </div>
+
+    <div class="tech-grid">
+        <div class="tech-item"><span class="tech-name">PostgreSQL</span></div>
+        <div class="tech-item"><span class="tech-name">SQL</span></div>
+        <div class="tech-item"><span class="tech-name">MongoDB</span></div>
+        <div class="tech-item"><span class="tech-name">Firebase</span></div>
+    </div>
+</section>
+
+<section class="contact-section content-wrapper">
+    <div class="projects-header">
+        <h2 class="section-title">¿Hablamos?</h2>
+    </div>
+    <div class="contact-card">
+        <p class="contact-text">
+            Estoy abierto a nuevas oportunidades y colaboraciones en proyectos de código abierto.
+        </p>
+        <a href="mailto:tu-correo@ejemplo.com" class="contact-btn">
+            Enviar un mensaje
+        </a>
+    </div>
+</section>
+    
+
+    <script src="script.js"></script>
+
+    <script>
+    // Inicializar íconos Lucide
+    lucide.replace();
+</script>
+</body>
+</html>
